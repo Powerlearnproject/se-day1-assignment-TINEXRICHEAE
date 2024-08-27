@@ -12,17 +12,17 @@ Software engineering enables creation of software programs or systems that confo
 Software engineering ensures creation of reliable, secure and innovative software solutions to real life problems, for example booking a flight via an online application without having to first travel to the airport and back.
 
 Identify and describe at least three key milestones in the evolution of software engineering.
-i) Development of programming languages in 1950s and 1960s, such as Fortan in 1957, COBOL in 1959, then C in 1972. these high level programming languages made it possible for programmers to write more complex and abstract code more easily than it was with machine or assembly languages.
-ii) Establishment of software engineering as a discipline in 1960s, with the 1968 NATO conference on software engineering, making the concept formal with establishment of structured approaches, design principles and process methodologies, meant to address the software crisis where large software projects were often delivered late, over budget, even with multiple defects.
-iii) Introduction of agile methodologies in 2000s, such as Scrum and Extreme Programming, which focused on iterative development, continuous feedback, and adptability, thus promoting customer involvement, flexibility and collaborating, leading to faster delivery of software and better alignment with user needs as opposed to the previously linear and rigid sequence of phases.
+Development of programming languages in 1950s and 1960s, such as Fortan in 1957, COBOL in 1959, then C in 1972. these high level programming languages made it possible for programmers to write more complex and abstract code more easily than it was with machine or assembly languages.
+Establishment of software engineering as a discipline in 1960s, with the 1968 NATO conference on software engineering, making the concept formal with establishment of structured approaches, design principles and process methodologies, meant to address the software crisis where large software projects were often delivered late, over budget, even with multiple defects.
+Introduction of agile methodologies in 2000s, such as Scrum and Extreme Programming, which focused on iterative development, continuous feedback, and adptability, thus promoting customer involvement, flexibility and collaborating, leading to faster delivery of software and better alignment with user needs as opposed to the previously linear and rigid sequence of phases.
 
 List and briefly explain the phases of the Software Development Life Cycle.
-i) Requiremenet gathering and documentation, involves taking note of user specific needs to be accomplished by the requied software system.
-ii) Design, involves generating visual representations of the expecteed architecture and components of the system in form of wireframes, mockups and prototype.
-iii) Implementation, involves putting the design in to real code in development environment, to generate the intended functions inferred by the designs. Here security elements can be instilled with respect to the principles of best practice.
-iv) Testing, involves running the finished software in a controlled environment while monitoring its perfomance, a process meant to validate the system funtionality and catch any bugs or issues before fowarding it to the production environment.
-v) Deployment, involves lauching the refined version of the software in to production environment as intended by th project ojectives, to operate towards achieving user goals.
-vi) Maintenance, involves continuous monitoring and making necessary adjustment to the running software system, by making updates to fix bugs or add features, meant to improve performance.
+Requiremenet gathering and documentation, involves taking note of user specific needs to be accomplished by the requied software system.
+Design, involves generating visual representations of the expecteed architecture and components of the system in form of wireframes, mockups and prototype.
+Implementation, involves putting the design in to real code in development environment, to generate the intended functions inferred by the designs. Here security elements can be instilled with respect to the principles of best practice.
+Testing, involves running the finished software in a controlled environment while monitoring its perfomance, a process meant to validate the system funtionality and catch any bugs or issues before fowarding it to the production environment.
+Deployment, involves lauching the refined version of the software in to production environment as intended by th project ojectives, to operate towards achieving user goals.
+Maintenance, involves continuous monitoring and making necessary adjustment to the running software system, by making updates to fix bugs or add features, meant to improve performance.
 
 Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.
 Waterfall and agile denote well renown approaches to the software development cycle, with both focusing on managing the process effectively to completion with specified user needs well met.
@@ -35,7 +35,8 @@ whereas the agile approach would apply to projects like developing a mobile appl
 
 Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
 Software Developer, writes, and maintains the code, ensuring that it meets the funtional requirements of the user.
-Quality Assurance Engineer, designs test cases, execute tests and identify defects the software to ensure that it meets quality standards before release
+Quality Assurance Engineer, designs test cases, execute tests and identify defects the software to ensure that it meets quality standards before release.
+Project manager, oversees the planning, execution, and delivery of software projects.
 
 Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
 IDEs provide a suite of features like code editors, compilers, debuggers, and project management tools, that streamline software development.For example Visual Studio Code which is lightweight, highly customizable IDE with extensive support for plugins.
@@ -45,11 +46,10 @@ Changing requirements, during the development cycle which keeps rolling the proc
 Tight deadlines, which impose pressure to the team leading to rush approaches, which compromise the overall quality
 Technical debt, can also occur following use of suboptimal methods, resorted to by the team due to several reasons, which later leads to maintenance overheads.
 Software engineers try to overcome these challenges by;
--fostering effective communication within the team and external entities
-
-- use of flexible approaches like agile method, which allows for continuous changes during the development cylce
-  -proper organization of tasks according to priority, in order to allocate time and resources more effectively
-  -Regular assessment of project goals and timelines, to ensure proper adjustments necessary to deliver the project on time
+fostering effective communication within the team and external entities,
+use of flexible approaches like agile method, which allows for continuous changes during the development cylce,
+proper organization of tasks according to priority, in order to allocate time and resources more effectively,
+Regular assessment of project goals and timelines, to ensure proper adjustments necessary to deliver the project on time.
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
 Unit testing, involves testing individual components or functions in isolation to ensure they work as expected.This is meant to catch bugs early in the development process, ensuring that each unit performs its specific function correctly.
@@ -62,10 +62,10 @@ Acceptance testing, involves testing the software against the requirements and c
 Define prompt engineering and discuss its importance in interacting with AI models.
 Prompt engineering involves crafting questions or statements such that they can result in best possible responses from and AI model.
 It is important in that ;
+it ensures complete and clear answers for the AI model user,
+Minimizes hallucinations from the AI model, thus focussing on only asked for answers,
+Prevents confusion that can be created by some AI model responses,
+Saves time by getting faster appropraite solutions for user qerries.
 
-- it ensures complete and clear answers for the AI model user
-- Minimizes hallucinations from the AI model, thus focussing on only asked for answers
-- Prevents confusion that can be created by some AI model responses
-- Saves time by getting faster appropraite solutions for user qerries
   Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
-  A vague prompt would be like "How is beans cooked?", and the improved version would be "give a step by step process for cooking beans", the later version would bring out a more clear sequential answer to the question of how beans is prepared as opposed to the former prompt which would leave the AI model to decide how best it would present the answer.
+A vague prompt would be like "How is beans cooked?", and the improved version would be "give a step by step process for cooking beans", the later version would bring out a more clear sequential answer to the question of how beans is prepared as opposed to the former prompt which would leave the AI model to decide how best it would present the answer.
